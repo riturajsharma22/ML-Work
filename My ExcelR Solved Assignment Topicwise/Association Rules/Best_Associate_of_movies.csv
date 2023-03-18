@@ -1,0 +1,239 @@
+,antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+0,frozenset({'Gladiator'}),frozenset({'Sixth Sense'}),0.7,0.6,0.5,0.7142857142857143,1.1904761904761905,0.08000000000000002,1.4000000000000001
+1,frozenset({'Sixth Sense'}),frozenset({'Gladiator'}),0.6,0.7,0.5,0.8333333333333334,1.1904761904761907,0.08000000000000002,1.8000000000000007
+2,frozenset({'Sixth Sense'}),frozenset({'Patriot'}),0.6,0.6,0.4,0.6666666666666667,1.1111111111111114,0.040000000000000036,1.2000000000000004
+3,frozenset({'Patriot'}),frozenset({'Sixth Sense'}),0.6,0.6,0.4,0.6666666666666667,1.1111111111111114,0.040000000000000036,1.2000000000000004
+4,frozenset({'LOTR'}),frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+5,frozenset({'Sixth Sense'}),frozenset({'LOTR'}),0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+6,frozenset({'Sixth Sense'}),frozenset({'Green Mile'}),0.6,0.2,0.2,0.33333333333333337,1.6666666666666667,0.08000000000000002,1.2000000000000002
+7,frozenset({'Green Mile'}),frozenset({'Sixth Sense'}),0.2,0.6,0.2,1.0,1.6666666666666667,0.08000000000000002,inf
+8,frozenset({'Gladiator'}),frozenset({'Patriot'}),0.7,0.6,0.6,0.8571428571428572,1.4285714285714288,0.18,2.8000000000000016
+9,frozenset({'Patriot'}),frozenset({'Gladiator'}),0.6,0.7,0.6,1.0,1.4285714285714286,0.18,inf
+10,frozenset({'Gladiator'}),frozenset({'LOTR'}),0.7,0.1,0.1,0.14285714285714288,1.4285714285714286,0.030000000000000013,1.05
+11,frozenset({'LOTR'}),frozenset({'Gladiator'}),0.1,0.7,0.1,1.0,1.4285714285714286,0.030000000000000013,inf
+12,frozenset({'Gladiator'}),frozenset({'Braveheart'}),0.7,0.1,0.1,0.14285714285714288,1.4285714285714286,0.030000000000000013,1.05
+13,frozenset({'Braveheart'}),frozenset({'Gladiator'}),0.1,0.7,0.1,1.0,1.4285714285714286,0.030000000000000013,inf
+14,frozenset({'LOTR1'}),frozenset({'Harry Potter1'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+15,frozenset({'Harry Potter1'}),frozenset({'LOTR1'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+16,frozenset({'LOTR1'}),frozenset({'LOTR2'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+17,frozenset({'LOTR2'}),frozenset({'LOTR1'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+18,frozenset({'LOTR1'}),frozenset({'Green Mile'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+19,frozenset({'Green Mile'}),frozenset({'LOTR1'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+20,frozenset({'LOTR2'}),frozenset({'Harry Potter1'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+21,frozenset({'Harry Potter1'}),frozenset({'LOTR2'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+22,frozenset({'Harry Potter2'}),frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+23,frozenset({'Harry Potter1'}),frozenset({'Harry Potter2'}),0.2,0.1,0.1,0.5,5.0,0.08,1.8
+24,frozenset({'Harry Potter1'}),frozenset({'Green Mile'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+25,frozenset({'Green Mile'}),frozenset({'Harry Potter1'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+26,frozenset({'Patriot'}),frozenset({'Braveheart'}),0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+27,frozenset({'Braveheart'}),frozenset({'Patriot'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+28,frozenset({'LOTR2'}),frozenset({'Green Mile'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+29,frozenset({'Green Mile'}),frozenset({'LOTR2'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+30,frozenset({'LOTR'}),frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+31,frozenset({'Green Mile'}),frozenset({'LOTR'}),0.2,0.1,0.1,0.5,5.0,0.08,1.8
+32,"frozenset({'Gladiator', 'Sixth Sense'})",frozenset({'Patriot'}),0.5,0.6,0.4,0.8,1.3333333333333335,0.10000000000000003,2.0000000000000004
+33,"frozenset({'Gladiator', 'Patriot'})",frozenset({'Sixth Sense'}),0.6,0.6,0.4,0.6666666666666667,1.1111111111111114,0.040000000000000036,1.2000000000000004
+34,"frozenset({'Sixth Sense', 'Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+35,frozenset({'Gladiator'}),"frozenset({'Sixth Sense', 'Patriot'})",0.7,0.4,0.4,0.5714285714285715,1.4285714285714286,0.12000000000000005,1.4000000000000001
+36,frozenset({'Sixth Sense'}),"frozenset({'Gladiator', 'Patriot'})",0.6,0.6,0.4,0.6666666666666667,1.1111111111111114,0.040000000000000036,1.2000000000000004
+37,frozenset({'Patriot'}),"frozenset({'Gladiator', 'Sixth Sense'})",0.6,0.5,0.4,0.6666666666666667,1.3333333333333335,0.10000000000000003,1.5000000000000004
+38,"frozenset({'Gladiator', 'Sixth Sense'})",frozenset({'LOTR'}),0.5,0.1,0.1,0.2,2.0,0.05,1.125
+39,"frozenset({'Gladiator', 'LOTR'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+40,"frozenset({'LOTR', 'Sixth Sense'})",frozenset({'Gladiator'}),0.1,0.7,0.1,1.0,1.4285714285714286,0.030000000000000013,inf
+41,frozenset({'Gladiator'}),"frozenset({'LOTR', 'Sixth Sense'})",0.7,0.1,0.1,0.14285714285714288,1.4285714285714286,0.030000000000000013,1.05
+42,frozenset({'Sixth Sense'}),"frozenset({'Gladiator', 'LOTR'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+43,frozenset({'LOTR'}),"frozenset({'Gladiator', 'Sixth Sense'})",0.1,0.5,0.1,1.0,2.0,0.05,inf
+44,"frozenset({'Gladiator', 'Sixth Sense'})",frozenset({'Green Mile'}),0.5,0.2,0.1,0.2,1.0,0.0,1.0
+45,"frozenset({'Gladiator', 'Green Mile'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+46,frozenset({'Sixth Sense'}),"frozenset({'Gladiator', 'Green Mile'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+47,frozenset({'Green Mile'}),"frozenset({'Gladiator', 'Sixth Sense'})",0.2,0.5,0.1,0.5,1.0,0.0,1.0
+48,"frozenset({'LOTR1', 'Sixth Sense'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+49,"frozenset({'LOTR1', 'Harry Potter1'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+50,"frozenset({'Sixth Sense', 'Harry Potter1'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+51,frozenset({'LOTR1'}),"frozenset({'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+52,frozenset({'Sixth Sense'}),"frozenset({'LOTR1', 'Harry Potter1'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+53,frozenset({'Harry Potter1'}),"frozenset({'LOTR1', 'Sixth Sense'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+54,"frozenset({'LOTR1', 'Sixth Sense'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+55,"frozenset({'Sixth Sense', 'LOTR2'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+56,frozenset({'LOTR1'}),"frozenset({'Sixth Sense', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+57,frozenset({'LOTR2'}),"frozenset({'LOTR1', 'Sixth Sense'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+58,"frozenset({'LOTR1', 'Sixth Sense'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+59,"frozenset({'LOTR1', 'Green Mile'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+60,"frozenset({'Sixth Sense', 'Green Mile'})",frozenset({'LOTR1'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+61,frozenset({'LOTR1'}),"frozenset({'Sixth Sense', 'Green Mile'})",0.2,0.2,0.1,0.5,2.5,0.06,1.6
+62,frozenset({'Sixth Sense'}),"frozenset({'LOTR1', 'Green Mile'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+63,frozenset({'Green Mile'}),"frozenset({'LOTR1', 'Sixth Sense'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+64,"frozenset({'Sixth Sense', 'LOTR2'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+65,"frozenset({'Harry Potter1', 'LOTR2'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+66,"frozenset({'Sixth Sense', 'Harry Potter1'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+67,frozenset({'LOTR2'}),"frozenset({'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+68,frozenset({'Sixth Sense'}),"frozenset({'Harry Potter1', 'LOTR2'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+69,frozenset({'Harry Potter1'}),"frozenset({'Sixth Sense', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+70,"frozenset({'Sixth Sense', 'Harry Potter1'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+71,"frozenset({'Green Mile', 'Harry Potter1'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+72,"frozenset({'Sixth Sense', 'Green Mile'})",frozenset({'Harry Potter1'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+73,frozenset({'Harry Potter1'}),"frozenset({'Sixth Sense', 'Green Mile'})",0.2,0.2,0.1,0.5,2.5,0.06,1.6
+74,frozenset({'Sixth Sense'}),"frozenset({'Green Mile', 'Harry Potter1'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+75,frozenset({'Green Mile'}),"frozenset({'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+76,"frozenset({'Sixth Sense', 'LOTR2'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+77,"frozenset({'Green Mile', 'LOTR2'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+78,"frozenset({'Sixth Sense', 'Green Mile'})",frozenset({'LOTR2'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+79,frozenset({'LOTR2'}),"frozenset({'Sixth Sense', 'Green Mile'})",0.2,0.2,0.1,0.5,2.5,0.06,1.6
+80,frozenset({'Sixth Sense'}),"frozenset({'Green Mile', 'LOTR2'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+81,frozenset({'Green Mile'}),"frozenset({'Sixth Sense', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+82,"frozenset({'LOTR', 'Sixth Sense'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+83,"frozenset({'LOTR', 'Green Mile'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+84,"frozenset({'Sixth Sense', 'Green Mile'})",frozenset({'LOTR'}),0.2,0.1,0.1,0.5,5.0,0.08,1.8
+85,frozenset({'LOTR'}),"frozenset({'Sixth Sense', 'Green Mile'})",0.1,0.2,0.1,1.0,5.0,0.08,inf
+86,frozenset({'Sixth Sense'}),"frozenset({'LOTR', 'Green Mile'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+87,frozenset({'Green Mile'}),"frozenset({'LOTR', 'Sixth Sense'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+88,"frozenset({'Gladiator', 'Patriot'})",frozenset({'Braveheart'}),0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+89,"frozenset({'Gladiator', 'Braveheart'})",frozenset({'Patriot'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+90,"frozenset({'Patriot', 'Braveheart'})",frozenset({'Gladiator'}),0.1,0.7,0.1,1.0,1.4285714285714286,0.030000000000000013,inf
+91,frozenset({'Gladiator'}),"frozenset({'Patriot', 'Braveheart'})",0.7,0.1,0.1,0.14285714285714288,1.4285714285714286,0.030000000000000013,1.05
+92,frozenset({'Patriot'}),"frozenset({'Gladiator', 'Braveheart'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+93,frozenset({'Braveheart'}),"frozenset({'Gladiator', 'Patriot'})",0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+94,"frozenset({'Gladiator', 'LOTR'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+95,"frozenset({'LOTR', 'Green Mile'})",frozenset({'Gladiator'}),0.1,0.7,0.1,1.0,1.4285714285714286,0.030000000000000013,inf
+96,"frozenset({'Gladiator', 'Green Mile'})",frozenset({'LOTR'}),0.1,0.1,0.1,1.0,10.0,0.09,inf
+97,frozenset({'LOTR'}),"frozenset({'Gladiator', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+98,frozenset({'Gladiator'}),"frozenset({'LOTR', 'Green Mile'})",0.7,0.1,0.1,0.14285714285714288,1.4285714285714286,0.030000000000000013,1.05
+99,frozenset({'Green Mile'}),"frozenset({'Gladiator', 'LOTR'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+100,"frozenset({'LOTR1', 'LOTR2'})",frozenset({'Harry Potter1'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+101,"frozenset({'LOTR1', 'Harry Potter1'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+102,"frozenset({'Harry Potter1', 'LOTR2'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+103,frozenset({'LOTR1'}),"frozenset({'Harry Potter1', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+104,frozenset({'LOTR2'}),"frozenset({'LOTR1', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+105,frozenset({'Harry Potter1'}),"frozenset({'LOTR1', 'LOTR2'})",0.2,0.2,0.1,0.5,2.5,0.06,1.6
+106,"frozenset({'LOTR1', 'Green Mile'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+107,"frozenset({'LOTR1', 'Harry Potter1'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+108,"frozenset({'Harry Potter1', 'Green Mile'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+109,frozenset({'LOTR1'}),"frozenset({'Harry Potter1', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+110,frozenset({'Green Mile'}),"frozenset({'LOTR1', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+111,frozenset({'Harry Potter1'}),"frozenset({'LOTR1', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+112,"frozenset({'LOTR1', 'LOTR2'})",frozenset({'Green Mile'}),0.2,0.2,0.1,0.5,2.5,0.06,1.6
+113,"frozenset({'LOTR1', 'Green Mile'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+114,"frozenset({'Green Mile', 'LOTR2'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+115,frozenset({'LOTR1'}),"frozenset({'Green Mile', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+116,frozenset({'LOTR2'}),"frozenset({'LOTR1', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+117,frozenset({'Green Mile'}),"frozenset({'LOTR1', 'LOTR2'})",0.2,0.2,0.1,0.5,2.5,0.06,1.6
+118,"frozenset({'LOTR2', 'Harry Potter1'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+119,"frozenset({'Green Mile', 'Harry Potter1'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+120,"frozenset({'Green Mile', 'LOTR2'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+121,frozenset({'Harry Potter1'}),"frozenset({'Green Mile', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+122,frozenset({'LOTR2'}),"frozenset({'Green Mile', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+123,frozenset({'Green Mile'}),"frozenset({'LOTR2', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+124,"frozenset({'Gladiator', 'LOTR', 'Sixth Sense'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+125,"frozenset({'Gladiator', 'LOTR', 'Green Mile'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+126,"frozenset({'LOTR', 'Sixth Sense', 'Green Mile'})",frozenset({'Gladiator'}),0.1,0.7,0.1,1.0,1.4285714285714286,0.030000000000000013,inf
+127,"frozenset({'Gladiator', 'Sixth Sense', 'Green Mile'})",frozenset({'LOTR'}),0.1,0.1,0.1,1.0,10.0,0.09,inf
+128,"frozenset({'Gladiator', 'LOTR'})","frozenset({'Sixth Sense', 'Green Mile'})",0.1,0.2,0.1,1.0,5.0,0.08,inf
+129,"frozenset({'LOTR', 'Sixth Sense'})","frozenset({'Gladiator', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+130,"frozenset({'LOTR', 'Green Mile'})","frozenset({'Gladiator', 'Sixth Sense'})",0.1,0.5,0.1,1.0,2.0,0.05,inf
+131,"frozenset({'Gladiator', 'Sixth Sense'})","frozenset({'LOTR', 'Green Mile'})",0.5,0.1,0.1,0.2,2.0,0.05,1.125
+132,"frozenset({'Gladiator', 'Green Mile'})","frozenset({'LOTR', 'Sixth Sense'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+133,"frozenset({'Sixth Sense', 'Green Mile'})","frozenset({'Gladiator', 'LOTR'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+134,frozenset({'LOTR'}),"frozenset({'Gladiator', 'Sixth Sense', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+135,frozenset({'Gladiator'}),"frozenset({'LOTR', 'Sixth Sense', 'Green Mile'})",0.7,0.1,0.1,0.14285714285714288,1.4285714285714286,0.030000000000000013,1.05
+136,frozenset({'Sixth Sense'}),"frozenset({'Gladiator', 'LOTR', 'Green Mile'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+137,frozenset({'Green Mile'}),"frozenset({'Gladiator', 'LOTR', 'Sixth Sense'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+138,"frozenset({'LOTR1', 'Sixth Sense', 'LOTR2'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+139,"frozenset({'LOTR1', 'LOTR2', 'Harry Potter1'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+140,"frozenset({'LOTR1', 'Sixth Sense', 'Harry Potter1'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+141,"frozenset({'Harry Potter1', 'Sixth Sense', 'LOTR2'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+142,"frozenset({'LOTR1', 'LOTR2'})","frozenset({'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+143,"frozenset({'LOTR1', 'Sixth Sense'})","frozenset({'Harry Potter1', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+144,"frozenset({'LOTR1', 'Harry Potter1'})","frozenset({'Sixth Sense', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+145,"frozenset({'Sixth Sense', 'LOTR2'})","frozenset({'LOTR1', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+146,"frozenset({'Harry Potter1', 'LOTR2'})","frozenset({'LOTR1', 'Sixth Sense'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+147,"frozenset({'Sixth Sense', 'Harry Potter1'})","frozenset({'LOTR1', 'LOTR2'})",0.1,0.2,0.1,1.0,5.0,0.08,inf
+148,frozenset({'LOTR1'}),"frozenset({'Harry Potter1', 'Sixth Sense', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+149,frozenset({'LOTR2'}),"frozenset({'LOTR1', 'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+150,frozenset({'Sixth Sense'}),"frozenset({'LOTR1', 'LOTR2', 'Harry Potter1'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+151,frozenset({'Harry Potter1'}),"frozenset({'LOTR1', 'Sixth Sense', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+152,"frozenset({'LOTR1', 'Sixth Sense', 'Green Mile'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+153,"frozenset({'LOTR1', 'Sixth Sense', 'Harry Potter1'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+154,"frozenset({'LOTR1', 'Green Mile', 'Harry Potter1'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+155,"frozenset({'Harry Potter1', 'Sixth Sense', 'Green Mile'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+156,"frozenset({'LOTR1', 'Sixth Sense'})","frozenset({'Harry Potter1', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+157,"frozenset({'LOTR1', 'Green Mile'})","frozenset({'Sixth Sense', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+158,"frozenset({'LOTR1', 'Harry Potter1'})","frozenset({'Sixth Sense', 'Green Mile'})",0.1,0.2,0.1,1.0,5.0,0.08,inf
+159,"frozenset({'Sixth Sense', 'Green Mile'})","frozenset({'LOTR1', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+160,"frozenset({'Sixth Sense', 'Harry Potter1'})","frozenset({'LOTR1', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+161,"frozenset({'Harry Potter1', 'Green Mile'})","frozenset({'LOTR1', 'Sixth Sense'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+162,frozenset({'LOTR1'}),"frozenset({'Harry Potter1', 'Sixth Sense', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+163,frozenset({'Sixth Sense'}),"frozenset({'LOTR1', 'Green Mile', 'Harry Potter1'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+164,frozenset({'Green Mile'}),"frozenset({'LOTR1', 'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+165,frozenset({'Harry Potter1'}),"frozenset({'LOTR1', 'Sixth Sense', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+166,"frozenset({'LOTR1', 'Sixth Sense', 'LOTR2'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+167,"frozenset({'LOTR1', 'Green Mile', 'LOTR2'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+168,"frozenset({'LOTR1', 'Sixth Sense', 'Green Mile'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+169,"frozenset({'Green Mile', 'Sixth Sense', 'LOTR2'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+170,"frozenset({'LOTR1', 'LOTR2'})","frozenset({'Sixth Sense', 'Green Mile'})",0.2,0.2,0.1,0.5,2.5,0.06,1.6
+171,"frozenset({'LOTR1', 'Sixth Sense'})","frozenset({'Green Mile', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+172,"frozenset({'LOTR1', 'Green Mile'})","frozenset({'Sixth Sense', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+173,"frozenset({'Sixth Sense', 'LOTR2'})","frozenset({'LOTR1', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+174,"frozenset({'Green Mile', 'LOTR2'})","frozenset({'LOTR1', 'Sixth Sense'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+175,"frozenset({'Sixth Sense', 'Green Mile'})","frozenset({'LOTR1', 'LOTR2'})",0.2,0.2,0.1,0.5,2.5,0.06,1.6
+176,frozenset({'LOTR1'}),"frozenset({'Green Mile', 'Sixth Sense', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+177,frozenset({'LOTR2'}),"frozenset({'LOTR1', 'Sixth Sense', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+178,frozenset({'Sixth Sense'}),"frozenset({'LOTR1', 'Green Mile', 'LOTR2'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+179,frozenset({'Green Mile'}),"frozenset({'LOTR1', 'Sixth Sense', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+180,"frozenset({'LOTR2', 'Sixth Sense', 'Harry Potter1'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+181,"frozenset({'LOTR2', 'Green Mile', 'Harry Potter1'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+182,"frozenset({'Green Mile', 'Sixth Sense', 'Harry Potter1'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+183,"frozenset({'Green Mile', 'Sixth Sense', 'LOTR2'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+184,"frozenset({'LOTR2', 'Harry Potter1'})","frozenset({'Sixth Sense', 'Green Mile'})",0.1,0.2,0.1,1.0,5.0,0.08,inf
+185,"frozenset({'Sixth Sense', 'Harry Potter1'})","frozenset({'Green Mile', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+186,"frozenset({'Green Mile', 'Harry Potter1'})","frozenset({'Sixth Sense', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+187,"frozenset({'Sixth Sense', 'LOTR2'})","frozenset({'Green Mile', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+188,"frozenset({'Green Mile', 'LOTR2'})","frozenset({'Sixth Sense', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+189,"frozenset({'Sixth Sense', 'Green Mile'})","frozenset({'LOTR2', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+190,frozenset({'Harry Potter1'}),"frozenset({'Green Mile', 'Sixth Sense', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+191,frozenset({'LOTR2'}),"frozenset({'Green Mile', 'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+192,frozenset({'Sixth Sense'}),"frozenset({'LOTR2', 'Green Mile', 'Harry Potter1'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
+193,frozenset({'Green Mile'}),"frozenset({'LOTR2', 'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+194,"frozenset({'LOTR1', 'Green Mile', 'LOTR2'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+195,"frozenset({'LOTR1', 'LOTR2', 'Harry Potter1'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+196,"frozenset({'LOTR1', 'Green Mile', 'Harry Potter1'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+197,"frozenset({'Harry Potter1', 'Green Mile', 'LOTR2'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+198,"frozenset({'LOTR1', 'LOTR2'})","frozenset({'Harry Potter1', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+199,"frozenset({'LOTR1', 'Green Mile'})","frozenset({'Harry Potter1', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+200,"frozenset({'LOTR1', 'Harry Potter1'})","frozenset({'Green Mile', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+201,"frozenset({'Green Mile', 'LOTR2'})","frozenset({'LOTR1', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+202,"frozenset({'Harry Potter1', 'LOTR2'})","frozenset({'LOTR1', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+203,"frozenset({'Harry Potter1', 'Green Mile'})","frozenset({'LOTR1', 'LOTR2'})",0.1,0.2,0.1,1.0,5.0,0.08,inf
+204,frozenset({'LOTR1'}),"frozenset({'Harry Potter1', 'Green Mile', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+205,frozenset({'LOTR2'}),"frozenset({'LOTR1', 'Green Mile', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+206,frozenset({'Green Mile'}),"frozenset({'LOTR1', 'LOTR2', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+207,frozenset({'Harry Potter1'}),"frozenset({'LOTR1', 'Green Mile', 'LOTR2'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+208,"frozenset({'Harry Potter1', 'LOTR2', 'LOTR1', 'Green Mile'})",frozenset({'Sixth Sense'}),0.1,0.6,0.1,1.0,1.6666666666666667,0.04000000000000001,inf
+209,"frozenset({'Harry Potter1', 'Sixth Sense', 'LOTR1', 'Green Mile'})",frozenset({'LOTR2'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+210,"frozenset({'Harry Potter1', 'LOTR2', 'Sixth Sense', 'Green Mile'})",frozenset({'LOTR1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+211,"frozenset({'LOTR1', 'LOTR2', 'Sixth Sense', 'Green Mile'})",frozenset({'Harry Potter1'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+212,"frozenset({'LOTR1', 'LOTR2', 'Sixth Sense', 'Harry Potter1'})",frozenset({'Green Mile'}),0.1,0.2,0.1,1.0,5.0,0.08,inf
+213,"frozenset({'Harry Potter1', 'LOTR1', 'Green Mile'})","frozenset({'Sixth Sense', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+214,"frozenset({'Harry Potter1', 'LOTR2', 'Green Mile'})","frozenset({'LOTR1', 'Sixth Sense'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+215,"frozenset({'Harry Potter1', 'Sixth Sense', 'Green Mile'})","frozenset({'LOTR1', 'LOTR2'})",0.1,0.2,0.1,1.0,5.0,0.08,inf
+216,"frozenset({'LOTR1', 'LOTR2', 'Green Mile'})","frozenset({'Sixth Sense', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+217,"frozenset({'LOTR1', 'Sixth Sense', 'Green Mile'})","frozenset({'LOTR2', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+218,"frozenset({'LOTR2', 'Sixth Sense', 'Green Mile'})","frozenset({'LOTR1', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+219,"frozenset({'LOTR1', 'LOTR2', 'Harry Potter1'})","frozenset({'Sixth Sense', 'Green Mile'})",0.1,0.2,0.1,1.0,5.0,0.08,inf
+220,"frozenset({'LOTR1', 'Sixth Sense', 'Harry Potter1'})","frozenset({'LOTR2', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+221,"frozenset({'LOTR2', 'Sixth Sense', 'Harry Potter1'})","frozenset({'LOTR1', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+222,"frozenset({'LOTR1', 'Sixth Sense', 'LOTR2'})","frozenset({'Harry Potter1', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+223,"frozenset({'Harry Potter1', 'Green Mile'})","frozenset({'LOTR1', 'Sixth Sense', 'LOTR2'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+224,"frozenset({'LOTR1', 'Green Mile'})","frozenset({'LOTR2', 'Sixth Sense', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+225,"frozenset({'LOTR2', 'Green Mile'})","frozenset({'LOTR1', 'Sixth Sense', 'Harry Potter1'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+226,"frozenset({'Sixth Sense', 'Green Mile'})","frozenset({'LOTR1', 'LOTR2', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+227,"frozenset({'LOTR1', 'Harry Potter1'})","frozenset({'LOTR2', 'Sixth Sense', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+228,"frozenset({'LOTR2', 'Harry Potter1'})","frozenset({'LOTR1', 'Sixth Sense', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+229,"frozenset({'Sixth Sense', 'Harry Potter1'})","frozenset({'LOTR1', 'LOTR2', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+230,"frozenset({'LOTR1', 'LOTR2'})","frozenset({'Harry Potter1', 'Sixth Sense', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+231,"frozenset({'LOTR1', 'Sixth Sense'})","frozenset({'Harry Potter1', 'LOTR2', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+232,"frozenset({'Sixth Sense', 'LOTR2'})","frozenset({'Harry Potter1', 'LOTR1', 'Green Mile'})",0.1,0.1,0.1,1.0,10.0,0.09,inf
+233,frozenset({'Green Mile'}),"frozenset({'LOTR1', 'LOTR2', 'Sixth Sense', 'Harry Potter1'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+234,frozenset({'Harry Potter1'}),"frozenset({'LOTR1', 'LOTR2', 'Sixth Sense', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+235,frozenset({'LOTR1'}),"frozenset({'Harry Potter1', 'LOTR2', 'Sixth Sense', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+236,frozenset({'LOTR2'}),"frozenset({'Harry Potter1', 'Sixth Sense', 'LOTR1', 'Green Mile'})",0.2,0.1,0.1,0.5,5.0,0.08,1.8
+237,frozenset({'Sixth Sense'}),"frozenset({'Harry Potter1', 'LOTR2', 'LOTR1', 'Green Mile'})",0.6,0.1,0.1,0.16666666666666669,1.6666666666666667,0.04000000000000001,1.08
